@@ -10818,15 +10818,15 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway";
 }
 body a, body input, body p {
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway";
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   text-transform: uppercase;
   color: #222222;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   margin-bottom: 24px;
   margin-top: 24px;
 }
@@ -11010,7 +11010,7 @@ header.header-image .header-content .header-content-inner h5 {
     color: #a5e200;
   }
   .header-contact ul .fa-twitter:hover, .header-contact ul .fa-facebook:hover, .header-contact ul .fa-linkedin:hover, .header-contact ul .fa-google-plus:hover {
-    color: #238a9e;
+    color: #88ba00;
   }
 }
 /***/
@@ -11076,7 +11076,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #f0f4dc;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway";
   margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -11096,7 +11096,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway";
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   background-color: #f0f4dc;
@@ -11187,7 +11187,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #f0f4dc;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Raleway";
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: 0;
@@ -11204,7 +11204,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Raleway";
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -11251,7 +11251,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Raleway";
   }
   .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -11353,7 +11353,7 @@ header.header-image .header-content .header-content-inner h5 {
   width: 40px;
   height: 40px;
   font-size: 32px;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Raleway";
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
@@ -11623,6 +11623,9 @@ header.header-image .header-content .header-content-inner h5 {
 /*==========  4.6 - Footer styles  ==========*/
 .t108-footer {
   background-color: #222222;
+}
+.t108-footer .btn-social i {
+  font-size: 25px;
 }
 .t108-footer .footer-above {
   padding-top: 80px;
@@ -11912,6 +11915,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   width: 96px;
   height: 96px;
   border-radius: 100%;
+  line-height: 96px;
   background-color: #a5e200;
   margin: 0 auto 24px;
 }
@@ -12009,9 +12013,9 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   height: 100%;
   opacity: 0;
   background: rgba(34, 34, 34, 0.8);
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 1s;
 }
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
@@ -12027,7 +12031,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   color: #a5e200;
   padding: 0 15px;
 }
-.t108-one-page #portfolio .portfolio-box:hover .portfolio-box-caption {
+.t108-one-page #portfolio .-box:hover .-box-caption {
   opacity: 1;
 }
 .t108-one-page #counters-services {
@@ -12041,6 +12045,10 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
+  transition: all 0 0.5s;
+}
+.t108-one-page #counters-services .icon-services:hover {
+  transform: rotate(-45deg);
 }
 .t108-one-page #counters-services .counters-box {
   margin: 0 auto 72px;
@@ -12222,8 +12230,8 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   background-color: #a5e200;
 }
 #error-404 form .submit input[type=submit]:hover {
-  background-color: #238a9e;
-  border-color: #238a9e;
+  background-color: #88ba00;
+  border-color: #88ba00;
 }
 @media (min-width: 768px) {
   #error-404 form {
@@ -12256,8 +12264,8 @@ form fieldset input[name=comment], form fieldset input[name=message] {
     background-color: #a5e200;
   }
   #error-404 form .submit input[type=submit]:hover {
-    background-color: #238a9e;
-    border-color: #238a9e;
+    background-color: #88ba00;
+    border-color: #88ba00;
   }
 }
 #error-404 a {
